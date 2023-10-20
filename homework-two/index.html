@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Nav</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Slab"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navHolder">
+      <a href="#home" class="logo"><img src="images/logo.png" /></a>
+      <div class="bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="links">
+        <a href="#home">HOME</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#products">PRODUCTS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+    <div class="pagescroll">
+      <div id="app"></div>
+    </div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <script type="module" src="model/model.js"></script>
+  </body>
+</html>
